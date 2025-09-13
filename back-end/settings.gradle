@@ -1,0 +1,16 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version SPRING_BOOT
+        id 'io.spring.dependency-management' version SPRING_DEPENDENCY_MANAGEMENT
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'jaeuuon'
+
+include 'common'
