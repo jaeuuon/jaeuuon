@@ -6,7 +6,7 @@ package com.jaeuuon.common.constant;
 public class CommonConstant {
 
     /**
-     * 프로젝트 최상위 패키지<br />
+     * 최상위 패키지<br />
      * ※
      */
     public static final String BASE_PACKAGE = "com.jaeuuon";
