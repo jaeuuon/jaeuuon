@@ -10,14 +10,14 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 공통 설정<br />
- * ※ 프로젝트 최상위 그룹을 기반으로 설정 값을 바인딩
+ * ※
  */
-@ConfigurationPropertiesScan({CommonConstant.GROUP})
+@ConfigurationPropertiesScan({CommonConstant.BASE_PACKAGE})
 @Configuration
 public class CommonConfig {
 
     /**
-     * 직렬화 대상을 전역 변수로 한정
+     * ObjectMapper의 직렬화 대상을 전역 변수로 한정
      */
     @Bean
     public ObjectMapper objectMapper() {
