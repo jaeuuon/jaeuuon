@@ -13,7 +13,7 @@ public class CommonConstant {
 
     /**
      * 문자열 구분자<br />
-     * ※ String 결합 또는 String[] 분리 시 사용
+     * ※ 결합, 분리 시 사용
      */
     public static final String DELIMITER = ",";
 

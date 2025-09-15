@@ -18,7 +18,7 @@ public class CommonConfig {
 
     /**
      * ObjectMapper의 직렬화 대상을 전역 변수로 한정<br />
-     * ※ 응답 시 getter 등의 함수 포함 방지
+     * ※ 응답 클래스의 함수 포함 방지
      */
     @Bean
     public ObjectMapper objectMapper() {
