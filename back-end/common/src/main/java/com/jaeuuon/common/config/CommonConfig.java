@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * 공통 설정<br />
- * ※ 최상위 패키지를 기반으로 @ConfigurationProperties가 사용된 클래스를 스캔하여 빈으로 등록
+ * ※ 최상위 패키지를 기반으로 @ConfigurationProperties가 붙어 있는 클래스를 스캔하여 빈으로 등록
  */
 @ConfigurationPropertiesScan({CommonConstant.BASE_PACKAGE})
 @Configuration
