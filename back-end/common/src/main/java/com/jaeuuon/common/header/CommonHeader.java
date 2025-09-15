@@ -6,16 +6,14 @@ package com.jaeuuon.common.header;
 public class CommonHeader {
 
     /**
-     * 요청 ID<br />
-     * ※ gateway 프로젝트에서 추가됨<br />
-     * ※ 로깅 시 사용
+     * 로깅 시 사용하는 요청 ID<br />
+     * ※ 외부의 요청이 gateway 프로젝트로 들어올 때 추가
      */
     public static final String REQUEST_ID = "Request-ID";
 
     /**
-     * 사용자 ID<br />
-     * ※ gateway 프로젝트에서 JWT Access 또는 Refresh를 파싱하여 추가됨<br />
-     * ※ 사용자 확인, 추적, 로깅 등에 사용
+     * 사용자 확인, 기록, 로깅 시 사용하는 사용자 ID<br />
+     * ※ 외부의 요청이 gateway 프로젝트로 들어올 때 JWT Access 또는 Refresh를 파싱하여 추가
      */
     public static final String USER_ID = "User-ID";
 
