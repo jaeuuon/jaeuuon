@@ -17,8 +17,8 @@ import org.springframework.context.annotation.Configuration;
 public class CommonConfig {
 
     /**
-     * ObjectMapper의 직렬화 대상을 전역 변수로 한정<br />
-     * ※ 응답 클래스의 getter 함수 포함을 방지
+     * ObjectMapper의 직렬화 대상을 필드로 한정<br />
+     * ※ 응답 클래스의 getter 포함을 방지
      */
     @Bean
     public ObjectMapper objectMapper() {
