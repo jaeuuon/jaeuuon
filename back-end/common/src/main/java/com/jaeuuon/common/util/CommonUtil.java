@@ -1,4 +1,4 @@
-package com.jaeuuon.common.source.util;
+package com.jaeuuon.common.util;
 
 import org.springframework.lang.NonNull;
 
