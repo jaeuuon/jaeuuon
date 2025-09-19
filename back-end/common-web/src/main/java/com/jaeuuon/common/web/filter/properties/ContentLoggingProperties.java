@@ -1,4 +1,4 @@
 package com.jaeuuon.common.web.filter.properties;
 
-public class FilterProperties {
+public class ContentLoggingProperties {
 }
