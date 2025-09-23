@@ -1,9 +1,9 @@
-package com.jaeuuon.common.header;
+package com.jaeuuon.common.constant;
 
 /**
- * 공통 헤더
+ * 요청, 응답 헤더
  */
-public class CommonHeader {
+public class HeaderConstant {
 
     /**
      * 로깅 시 사용되는 요청 ID<br />
@@ -13,13 +13,13 @@ public class CommonHeader {
      *     {@code
      *     // "7243ab10-157"
      *     serverHttpRequest.getHeaders()
-     *             .getFirst(CommonHeader.REQUEST_ID);
+     *             .getFirst(HeaderConstant.REQUEST_ID);
      *     }
      * </pre>
      * <pre>
      *     {@code
      *     // "7243ab10-157"
-     *     httpServletRequest.getHeader(CommonHeader.REQUEST_ID);
+     *     httpServletRequest.getHeader(HeaderConstant.REQUEST_ID);
      *     }
      * </pre>
      */
@@ -33,13 +33,13 @@ public class CommonHeader {
      *     {@code
      *     // "1"
      *     serverHttpRequest.getHeaders()
-     *             .getFirst(CommonHeader.USER_ID);
+     *             .getFirst(HeaderConstant.USER_ID);
      *     }
      * </pre>
      * <pre>
      *     {@code
      *     // "1"
-     *     httpServletRequest.getHeader(CommonHeader.USER_ID);
+     *     httpServletRequest.getHeader(HeaderConstant.USER_ID);
      *     }
      * </pre>
      */
