@@ -1,4 +1,4 @@
-package com.jaeuuon.common.web.aop.aspect;
+package com.jaeuuon.common.web.aspect;
 
 public class RequiredUserAuthorityAspect {
 }
