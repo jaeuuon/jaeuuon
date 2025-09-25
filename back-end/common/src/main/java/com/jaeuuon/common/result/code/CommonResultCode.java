@@ -1,0 +1,4 @@
+package com.jaeuuon.common.result.code;
+
+public class CommonResultCode {
+}
