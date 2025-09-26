@@ -31,7 +31,7 @@ public class CommonConstant {
     public static final String BASE_PACKAGE = "com.jaeuuon";
 
     /**
-     * 문자열의 결합, 분리 시 사용되는 구분자
+     * 문자열 결합, 분리 시 사용되는 구분자
      *
      * <pre>
      *     {@code
