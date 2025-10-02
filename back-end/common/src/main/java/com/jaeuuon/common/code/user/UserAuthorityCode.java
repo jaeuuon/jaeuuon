@@ -30,7 +30,7 @@ public enum UserAuthorityCode implements CommonCode {
     private final String value;
 
     /**
-     * 결합된 이름 문자열을 분리 및 상수로 변환하여 반환<br />
+     * 결합된 상수들의 이름을 분리 및 상수로 변환하여 반환<br />
      * ※ 상수와 일치하지 않는 이름은 제외
      *
      * <pre>
@@ -40,7 +40,7 @@ public enum UserAuthorityCode implements CommonCode {
      *     }
      * </pre>
      *
-     * @param names 결합된 이름 문자열
+     * @param names 결합된 상수들의 이름
      * @return {@code Set<UserAuthorityCode>}
      */
     public static Set<UserAuthorityCode> convertToCodes(@NonNull String names) {
